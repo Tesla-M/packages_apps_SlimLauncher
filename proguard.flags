@@ -10,10 +10,6 @@
   public float getAlpha();
 }
 
--dontwarn android.support.v7.**
--keep class android.support.v7.** { *; }
--keep interface android.support.v7.** { *; }
-
 -keep class com.android.launcher3.BubbleTextView {
   public void setFastScrollFocus(float);
   public float getFastScrollFocus();
